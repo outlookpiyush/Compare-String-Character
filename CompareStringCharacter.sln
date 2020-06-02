@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Problems", "00 Problems", "{E458AC9F-9376-40A6-A40E-4D665398998F}"
+	ProjectSection(SolutionItems) = preProject
+		00 Problems\ProblemsDescription.PNG = 00 Problems\ProblemsDescription.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Logic", "01 Logic", "{F4BB4094-6723-40AB-91FC-780D80CEBF64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Apps", "02 Apps", "{498896A9-2D40-4E36-AEA0-AFCDFCB30B7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 TestCase", "03 TestCase", "{22CA91E5-3C08-4FE0-897E-392729C23ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompare.Logic", "01 Logic\StringCompare.Logic\StringCompare.Logic.csproj", "{182B15EF-4CE1-4EC2-A793-4EB84202CB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompare.Apps", "02 Apps\StringCompare.Apps\StringCompare.Apps.csproj", "{E6BC35DE-784B-4454-80C3-22E6C28FA9FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompare.MS.Testing", "03 TestCase\StringCompare.MS.Testing\StringCompare.MS.Testing.csproj", "{66AAE70C-5535-46DF-BEAA-17C19B23EA94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{182B15EF-4CE1-4EC2-A793-4EB84202CB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182B15EF-4CE1-4EC2-A793-4EB84202CB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182B15EF-4CE1-4EC2-A793-4EB84202CB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182B15EF-4CE1-4EC2-A793-4EB84202CB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BC35DE-784B-4454-80C3-22E6C28FA9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BC35DE-784B-4454-80C3-22E6C28FA9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BC35DE-784B-4454-80C3-22E6C28FA9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BC35DE-784B-4454-80C3-22E6C28FA9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AAE70C-5535-46DF-BEAA-17C19B23EA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AAE70C-5535-46DF-BEAA-17C19B23EA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AAE70C-5535-46DF-BEAA-17C19B23EA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AAE70C-5535-46DF-BEAA-17C19B23EA94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{182B15EF-4CE1-4EC2-A793-4EB84202CB57} = {F4BB4094-6723-40AB-91FC-780D80CEBF64}
+		{E6BC35DE-784B-4454-80C3-22E6C28FA9FD} = {498896A9-2D40-4E36-AEA0-AFCDFCB30B7E}
+		{66AAE70C-5535-46DF-BEAA-17C19B23EA94} = {22CA91E5-3C08-4FE0-897E-392729C23ACB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52596406-24C9-4E10-B5E6-72BD964EBD4E}
+	EndGlobalSection
+EndGlobal
